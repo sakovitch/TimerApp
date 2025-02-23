@@ -1,0 +1,27 @@
+# Ignorovanie Python cache súborov
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorovanie logov a dočasných súborov
+*.log
+*.tmp
+
+# Ignorovanie databázových exportov alebo záloh
+*.sql
+*.db
+
+# Ignorovanie stiahnutých alebo generovaných priečinkov
+update/
+*.zip
+
+# Ignorovanie IDE nastavení (napr. VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorovanie systémových súborov (Windows)
+Thumbs.db
+.DS_Store
+
+# Ignorovanie Excel exportov
+*.xlsx
